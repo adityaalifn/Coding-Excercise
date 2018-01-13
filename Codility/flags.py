@@ -6,11 +6,11 @@ def solution(A=[]):
             peaks.append(i)
             i += 1
     
-    if len(peaks == 0):
+    if len(peaks) == 0:
         return 0
     
 
-A = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]
+A = [0] * 12
 A[0] = 1
 A[1] = 5
 A[2] = 3

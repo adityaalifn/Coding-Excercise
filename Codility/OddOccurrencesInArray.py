@@ -9,12 +9,12 @@ def solution(A=[]):
     #     return 0
     # else:
     #     return pairs[0]
-    result = 0
+    sol = 0
     for number in A:
-        result ^= number
-        print(result)
+        sol ^= number
+        print(sol)
  
-    return result
+    return sol
 
 
 print(solution([9, 3, 9, 3, 9, 7, 9]))
