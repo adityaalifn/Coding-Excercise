@@ -1,8 +1,9 @@
 def solution(A=[]):
-    A = sorted(A)
-    if A == range(1, len(A) + 1):
+    A.sort()
+    if A == [i for i in range(1,len(A)+1)]:
         return 1
     return 0
+    
 
 
-print(solution([1, 2, 3, 4, 6]))
+print(solution([4,1,3,2]))
