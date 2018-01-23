@@ -6,8 +6,8 @@ def solution(A=[]):
     # return A.pop(count.index(min(count)))
     A.sort()
     min = 1
-    for elem in A:
-        if elem == min:
+    for i in A:
+        if i == min:
             min+=1
     return min
 
